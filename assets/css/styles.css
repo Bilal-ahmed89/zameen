@@ -68,6 +68,9 @@ color: rgb(255, 255, 255);
     color: white;
     border: 1px solid white;
 }
+.top-secondary-nav ul li input::placeholder{
+    color: white;
+}
 .top-primary-nav{
     padding: 0 24px;
     background-color: #f7f7f7;
@@ -96,29 +99,42 @@ color: rgb(255, 255, 255);
     }
     .banner img{
         width: 100%;
+        position: relative;
     }
     .search-area{
-        width: 50%;
-
+        position: absolute;
+        top: 200px;
+        left: 200px;
     }
     .search-area h1{
         margin: 0;
         justify-content: center;
+        display: flex;
+        color: white;
+        text-shadow: 0.2rem 0.2rem 0 rgb(0 0 0 / 25%);
+        font-weight: lighter;
     }
     .catogries{
-       margin: 12px;
+       margin: 10px 12px;
        justify-content:center ;
+       display: flex;
     }
     .catogries button{
-        width: 100px;
+        width: 120px;
+        height: 38px;
         padding: 8px;
         margin: 8px;
         background-color: transparent;
-        border-radius: 4px;
-        border: 1.5px solid black;
+        border: 1.5px solid white;
+        text-shadow: 0.2rem 0.2rem 0 rgb(0 0 0 / 25%);
+        color: white;
+        
     }
     .location-box{
      text-transform: uppercase;
+     background-color: rgba(34,34,34,.85);
+     color: white;
+     
     }
     .location-box ul{
       margin: 0;
@@ -135,8 +151,66 @@ color: rgb(255, 255, 255);
     .location-box ul li p{
         padding: 0;
         margin: 0;
+        font-size: 12px;
     }
     .location-box ul li button{
+    background-color: green;
+    border: 0;
+    width: 120px;
+    height: 45px;
+    margin-top: 16px;
 
     }
+     .location-box li input{
+     width: 300px;
+     height: 40px;
+     
+    }
+    .location-box li .city{
+        width: 150px;
+        height: 40px;
+    }
+    .extras li{
+        font-size: 12px;
+        padding: 0 2px;
+    }
+    .extras li a{
+        color: #0792ea;
+        text-decoration: none;
+    }
+    .popular-cities{
+        position: absolute;
+        right: 100px;
+        top: 200px;
+        height: 255px;
+        background-color: white;
+    
+        margin: 10px;
+    }
+    .popular-cities h1{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        background-color:#d9d9d9;
+        font-family: Helvetica,sans-serif;
+        padding: 12px;
+        font-size: 16px;
+    }
+    .city-names{
+        display: flex;
+        margin: 24px 0;
+        justify-content: space-between;
+        background-color:#d9d9d9;
+        font-family: Helvetica,sans-serif;
+        font-size: 14px;
+    }
+    .city-names ul{
+        margin: 0 12px;
+        padding: 0;
+    }
+    .city-names ul li{
+        list-style-type: none;
+        margin: 14px;
+    }
+
    
