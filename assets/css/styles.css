@@ -432,8 +432,107 @@ color: rgb(255, 255, 255);
     }
     
     .featured-agencies-wrapper .agencies-logos ul li a img{
-        width: 60px;
+        width: 63px;
         border-radius: 12px;
      }
-
+     .zameen-projects-wrapper{
+        height: 400px;
+        background-color: #e5f0fc;
+        margin: 24px;
+        padding: 12px;
+        border-radius: 24px;
+     }
+    .zameen-projects-wrapper h1{
+        margin: 0;
+        margin-top: 24px;
+        margin-bottom: 16px;
+        font-family: Lato, Helvetica, sans-serif;
+        font-size: 24px;
+        color: #222;
+        margin-left: 60px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+    }
+    .zameen-projects-wrapper h1 small{
+        margin-left: 40px;
+    }
+    .zameen-projects-wrapper h1 small{
+        
+    }
+    .zameen-projects-wrapper h1 small p{
+        background-color: #e83a3a;
+        padding: 4px 12px;
+        border-radius: 24px;
+        font-size: 14px;
+        color: white;
+        align-items: center;
+        margin: 0;
+        display: flex;
+    }
+    .zameen-projects-wrapper h1 small p span{
+        
+    }
+    .zameen-projects-wrapper h1 small p span img{
+        width: 15px;
+        margin-right: 6px;
+        margin-top: 2px;
+    }
     
+    .project-wrapper{
+       margin: 24px;
+    }
+    .project-wrapper ul{
+        display: flex;    
+        padding: 0;
+        margin: 0 32px;
+    }
+    .project-wrapper ul li{
+        list-style-type: none;
+        margin: 0 12px;
+    }
+    .project-wrapper ul li a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    .project-wrapper ul li a img{
+        border-radius: 12px;
+        width: 280px;
+    }
+    .project-wrapper ul li a h2{
+        margin: 6px 0;
+        font-family: Lato, Helvetica, sans-serif;
+        color: #222;
+        font-size: 17px;
+        font-weight: 700;
+       
+    }
+    .project-wrapper ul li a h2 small{
+        font-size: 13px;
+    }
+    .project-wrapper ul li a p{
+        margin: 12px 0;
+        color:  #919699;
+        font-family: Lato, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .project-wrapper ul li a ul{
+        display: block;
+        margin: 0;
+        
+        
+    }
+    .project-wrapper ul li a ul li{
+        margin: 0;
+        font-family: Lato, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: bolder;
+        display: flex;
+        margin-bottom: 12px;
+
+    }
+    .project-wrapper ul li a ul li span img{
+        width: 15px;
+        margin-right: 4px;
+    }
