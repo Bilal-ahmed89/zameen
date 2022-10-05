@@ -200,7 +200,7 @@ color: rgb(255, 255, 255);
         margin: 0;
         display: flex;
         justify-content: center;
-        background-color:#e5e5e5;
+        background-color:#eeeeee;
         font-family: Helvetica,sans-serif;
         padding: 12px;
         font-size: 16px;
@@ -209,7 +209,7 @@ color: rgb(255, 255, 255);
         display: flex;
         margin: 24px 0;
         justify-content: space-between;
-        background-color:#e5e5e5;
+        background-color: #eeeeee;
         font-family: Helvetica,sans-serif;
         font-size: 14px;
     }
@@ -222,9 +222,9 @@ color: rgb(255, 255, 255);
         margin: 14px;
     }
     .explore{
-    height: 400px;
-    margin: 60px;
-    flex-wrap: wrap;
+        padding: 24px;
+        margin: 50px 50px 0px 50px;
+       flex-wrap: wrap;
     }
     .explore h1{
         margin: 0;
@@ -251,10 +251,10 @@ color: rgb(255, 255, 255);
       padding-bottom: 40px;
     }    
     .explore ul li a:hover img{
-        border: 2.5px solid #f9d183;
-    }
+       border: 2.5px solid #f9d183;
+    } 
     .explore ul li a:hover h2{
-        color:  #f9d183;
+        color:  #ffcd6a;
     }
     .explore ul li a img{
       width: 35px;
@@ -262,6 +262,7 @@ color: rgb(255, 255, 255);
       padding: 0 24px;
       background-color: #fdf8ee;
       border-radius: 8px;
+      border: 2.5px solid transparent;
 
     }
     .explore ul li a span{
@@ -276,7 +277,6 @@ color: rgb(255, 255, 255);
     color: #1f1f1f;
     font-weight: 700;
     }
-
     .explore ul li a span p{
       margin: 0;
       padding-top: 4px;
@@ -286,12 +286,139 @@ color: rgb(255, 255, 255);
       font-weight: 400;
       
     }
-    .home-loan a img{
+    .explore ul .home-loan a img{
         background-color: #f4f9f7;
     }
-    .home-loan:hover img{
+    .explore ul .home-loan:hover img{
         border: 2.5px solid #8cffd1;
     }
-    .home-loan:hover h2{
+    .explore ul .home-loan:hover h2{
         color:  #81ffcc;
     }
+    .explore ul .area-guide a img{
+        background-color: #fef7f7
+    }
+    .explore ul .area-guide:hover img{
+        border: 2.5px solid #ffa6a6;
+    }
+    .explore ul .area-guide:hover h2{
+        color:  #ffa6a6;
+    }
+    .explore ul .plot-finder a img{
+        background-color: #f6faf9;
+    }
+    .explore ul .plot-finder:hover img{
+        border: 2.5px solid #73ffdc;
+    }
+    .explore ul .plot-finder:hover h2{
+        color:  #80ffdf;
+    }
+    .explore ul .property-index a img{
+        background-color: #f5f7ff;
+    }
+    .explore ul .property-index:hover img{
+        border: 2.5px solid #9aaeff;
+    }
+    .explore ul .property-index:hover h2{
+        color:  #9aaeff;
+    }
+    .explore ul .area-unit a img{
+        background-color: #ecf8f7;
+    }
+    .explore ul .area-unit:hover img{
+        border: 2.5px solid #1cfbe9;
+    }
+    .explore ul .area-unit:hover h2{
+        color:  #1cfbe9;
+    }
+    .explore ul .land-record a img{
+        background-color: #f1f9fe;
+    }
+    .explore ul .land-record:hover img{
+        border: 2.5px solid #61c0fb;
+    }
+    .explore ul .land-record:hover h2{
+        color:  #61c0fb;
+    }
+    .explore ul .property-trends a img{
+        background-color: #f9f5ff;
+    }
+    .explore ul .property-trends:hover img{
+        border: 2.5px solid #ba8bff;
+    }
+    .explore ul .property-trends:hover h2{
+        color:  #ba8bff;
+    }
+    .titanium-agencies-wrapper{
+      padding: 0 24px;
+      
+    
+    }
+    .titanium-agencies-wrapper h1{
+        margin: 0;
+        margin-bottom: 16px;
+        font-family: Lato, Helvetica, sans-serif;
+        font-size: 24px;
+        color: #1f1f1f;
+        justify-content: center;
+        margin-left: 60px;
+    }
+    .titanium-agencies-wrapper ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        padding: 0 12px;
+      }
+      .titanium-agencies-wrapper ul li{
+        list-style-type: none;
+        padding: 0 24px;
+      }
+      .titanium-agencies-wrapper ul li img{
+       width: 110px;
+    }
+    .titanium-agencies-wrapper .builder-logos h2{
+        justify-content: center;
+        display: flex;
+        font-family: Lato, Helvetica, sans-serif;
+        font-size: 24px;
+        color: #1f1f1f;
+        margin: 12px;
+        font-weight: normal;
+     }
+     .titanium-agencies-wrapper .builder-logos span{
+        display: flex;
+        justify-content: center;
+        ;
+     }
+     .titanium-agencies-wrapper .builder-logos span p{
+        margin: 0;
+        font-family: Lato, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #222;
+        padding: 4px 8px;
+       
+     }
+     .featured-agencies-wrapper{
+        padding: 0 24px;
+        background-color: red;
+     }
+     .agencies-logos ul{
+      margin: 0;
+      padding: 0;
+      display: flex;
+     }
+     .agencies-logos ul li{
+        list-style-type: none;
+        margin: 0 6px;
+
+     }
+     .agencies-logos ul li a{
+        text-decoration: none;
+    }
+    
+    .featured-agencies-wrapper .agencies-logos ul li a img{
+        width: 30px;
+     }
+
+    
