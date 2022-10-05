@@ -362,6 +362,7 @@ color: rgb(255, 255, 255);
         color: #1f1f1f;
         justify-content: center;
         margin-left: 60px;
+        font-weight: 700;
     }
     .titanium-agencies-wrapper ul{
         margin: 0;
@@ -375,7 +376,7 @@ color: rgb(255, 255, 255);
         padding: 0 24px;
       }
       .titanium-agencies-wrapper ul li img{
-       width: 110px;
+       width: 100px;
     }
     .titanium-agencies-wrapper .builder-logos h2{
         justify-content: center;
@@ -397,20 +398,33 @@ color: rgb(255, 255, 255);
         font-size: 14px;
         color: #222;
         padding: 4px 8px;
-       
      }
      .featured-agencies-wrapper{
         padding: 0 24px;
-        background-color: red;
+        margin: 80px 0;  
+     }
+     .featured-agencies-wrapper h1{
+        margin: 0;
+        margin-bottom: 16px;
+        font-family: Lato, Helvetica, sans-serif;
+        font-size: 24px;
+        color: #1f1f1f;
+        margin-left: 60px;
+        font-weight: 700;
+        
      }
      .agencies-logos ul{
       margin: 0;
       padding: 0;
       display: flex;
+      justify-content: center;
      }
      .agencies-logos ul li{
         list-style-type: none;
         margin: 0 6px;
+        align-items: center;
+        display: flex;
+        
 
      }
      .agencies-logos ul li a{
@@ -418,7 +432,8 @@ color: rgb(255, 255, 255);
     }
     
     .featured-agencies-wrapper .agencies-logos ul li a img{
-        width: 30px;
+        width: 60px;
+        border-radius: 12px;
      }
 
     
