@@ -485,11 +485,12 @@ color: rgb(255, 255, 255);
     .project-wrapper ul{
         display: flex;    
         padding: 0;
-        margin: 0 32px;
+        margin: 0 ;
+        margin-left: 24px;
     }
     .project-wrapper ul li{
         list-style-type: none;
-        margin: 0 12px;
+        margin: 0 2px;
     }
     .project-wrapper ul li a {
         text-decoration: none;
