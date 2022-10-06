@@ -352,7 +352,6 @@ color: rgb(255, 255, 255);
     .titanium-agencies-wrapper{
       padding: 0 24px;
       
-    
     }
     .titanium-agencies-wrapper h1{
         margin: 0;
@@ -457,9 +456,6 @@ color: rgb(255, 255, 255);
     .zameen-projects-wrapper h1 small{
         margin-left: 40px;
     }
-    .zameen-projects-wrapper h1 small{
-        
-    }
     .zameen-projects-wrapper h1 small p{
         background-color: #e83a3a;
         padding: 4px 12px;
@@ -491,6 +487,7 @@ color: rgb(255, 255, 255);
     .project-wrapper ul li{
         list-style-type: none;
         margin: 0 2px;
+        position: relative;
     }
     .project-wrapper ul li a {
         text-decoration: none;
@@ -499,6 +496,19 @@ color: rgb(255, 255, 255);
     .project-wrapper ul li a img{
         border-radius: 12px;
         width: 280px;
+        
+    }
+    .project-wrapper ul li a .red-hot-box{
+         position: absolute;
+         top: 6px;
+         left: 6px;
+         background-color: #e22826;
+         font-family: Lato, Helvetica, sans-serif;
+         color: #fff;
+         font-weight: 700;
+         border-radius: 4px;
+         padding: 2px 6px;
+         font-size: 12px;
     }
     .project-wrapper ul li a h2{
         margin: 6px 0;
