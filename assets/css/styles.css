@@ -534,17 +534,66 @@ color: rgb(255, 255, 255);
         margin-right: 4px;
     }
    .zameen-social-wrapper{
-     background-color: red;
+     
      margin: 24px;
    }
    .zameen-social-wrapper h1{
-    margin: 0;
-    margin-top: 24px;
-    margin-bottom: 16px;
     font-family: Lato, Helvetica, sans-serif;
     font-size: 24px;
     color: #222;
-    margin-left: 60px;
     font-weight: 700;
+    margin: 24px 0 24px 60px;
    }
-   
+   .zameen-social-wrapper .news-section{
+        width: 25%;
+   }
+   .zameen-social-wrapper .news-section span{
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    }
+   .zameen-social-wrapper .news-section span h1{
+    margin: 0;
+    margin-left: 24px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 17px;
+    
+    } 
+    .zameen-social-wrapper .news-section ul{
+       margin: 0;
+       padding: 0;
+   }
+   .zameen-social-wrapper .news-section ul li {
+    list-style-type: none;
+    margin: 24px 12px;
+   }
+   .zameen-social-wrapper .news-section ul li a{
+    text-decoration: none;
+    display: flex;
+    margin-left: 45px;
+   } 
+   .zameen-social-wrapper .news-section ul li a img{
+    width: 70px;
+    border-radius: 6px;
+   } 
+   .zameen-social-wrapper .news-section ul li a span{
+    display: block;
+    color: #222;
+    margin: 0;
+    margin-left: 16px;
+   } 
+   .zameen-social-wrapper .news-section ul li a span h2{
+    margin: 0;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+   } 
+   .zameen-social-wrapper .news-section ul li a span p{
+    margin: 0;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 12px; 
+    color: #a3a3a3;
+   } 
+
+
