@@ -534,9 +534,15 @@ color: rgb(255, 255, 255);
         margin-right: 4px;
     }
    .zameen-social-wrapper{
-     
      margin: 24px;
+     
    }
+   .zameen-social-wrapper .closing-div{
+   display: flex;
+
+   }
+
+   
    .zameen-social-wrapper h1{
     font-family: Lato, Helvetica, sans-serif;
     font-size: 24px;
@@ -595,5 +601,42 @@ color: rgb(255, 255, 255);
     margin-top: 12px; 
     color: #a3a3a3;
    } 
+   .zameen-social-wrapper .blogs-section span{
+    display: flex;
+    align-items: center;
+   }
+   
+   .zameen-social-wrapper .blogs-section span h1{
+    margin: 0;
+    margin-left: 24px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 17px;
+   } 
+   .zameen-social-wrapper .blogs-section ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+   }
+   .zameen-social-wrapper .blogs-section ul li {
+     list-style-type: none;
+     margin:  12px ;
+   }
+   .zameen-social-wrapper .blogs-section ul li a{
+    text-decoration: none;
+   }
+   .zameen-social-wrapper .blogs-section ul li a img{
+    width: 200px;
+    height: 120px;
+    border-radius: 6px;
+   }
+   .zameen-social-wrapper .blogs-section ul li a p{
+    margin: 12px 0 0;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #1f1f1f;
+   }
+  
+   
+
 
 
