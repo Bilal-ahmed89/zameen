@@ -601,9 +601,13 @@ color: rgb(255, 255, 255);
     margin-top: 12px; 
     color: #a3a3a3;
    } 
+   .zameen-social-wrapper .blogs-section {
+    margin-left: 12px;
+   }
    .zameen-social-wrapper .blogs-section span{
     display: flex;
     align-items: center;
+    margin-bottom: 16px;
    }
    
    .zameen-social-wrapper .blogs-section span h1{
@@ -619,7 +623,7 @@ color: rgb(255, 255, 255);
    }
    .zameen-social-wrapper .blogs-section ul li {
      list-style-type: none;
-     margin:  12px ;
+     margin:  8 px ;
    }
    .zameen-social-wrapper .blogs-section ul li a{
     text-decoration: none;
@@ -628,12 +632,60 @@ color: rgb(255, 255, 255);
     width: 200px;
     height: 120px;
     border-radius: 6px;
+    margin-right: 12px;
+
    }
    .zameen-social-wrapper .blogs-section ul li a p{
     margin: 12px 0 0;
     font-family: Lato, Helvetica, sans-serif;
     font-size: 14px;
     color: #1f1f1f;
+   }
+   .zameen-social-wrapper .forums-section{
+    margin-left: 12px;
+   }
+   .zameen-social-wrapper .forums-section span{
+    display: flex;
+    align-items: center;
+   }
+   .zameen-social-wrapper .forums-section span h1{
+    margin: 0;
+    margin-left: 24px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 17px;
+   }
+   .zameen-social-wrapper .forums-section span a{
+    margin: 0;
+    margin-left: 24px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: end;
+   }
+   
+   .zameen-social-wrapper .forums-section ul{
+   margin: 0;
+   padding: 0;
+   }
+   .zameen-social-wrapper .forums-section ul li{
+   list-style-type: none;
+   margin: 12px 0;
+   background-color: #f0f0f0;
+   padding: 24px 100px 24px 24px;
+   border-radius: 12px ;
+   }
+   .zameen-social-wrapper .forums-section ul li a{
+   text-decoration: none;
+   }
+   .zameen-social-wrapper .forums-section ul li a h1{
+   margin: 0;
+   font-family: Lato, Helvetica, sans-serif;
+    font-size: 14px;
+
+   }
+   .zameen-social-wrapper .forums-section ul li a p{
+   margin: 0;
+   font-family: Lato, Helvetica, sans-serif;
+   font-size: 12px;
    }
   
    
