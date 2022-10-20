@@ -7,6 +7,9 @@
 .w-15{
     width: 6rem;
 }
+.w-8{
+    width: 8rem;
+}
 .h-175{
     height: 1.75rem;
 }
@@ -57,6 +60,14 @@ width: 12px;
 }
 .top-right-ul li a img{
 width: 30px;
+}
+.banner{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0,0,0,0.6);
 }
 
 
