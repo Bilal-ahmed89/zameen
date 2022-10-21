@@ -39,7 +39,7 @@
                      
                       <li class="nav-item dropdown px-1">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          tools
+                           tools<small>new</small>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                           <li><a class="dropdown-item text-dark" href="#">Action</a></li>
@@ -124,35 +124,44 @@
         
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./assets/img/banner.jpg" class="d-block w-100" alt="...">
-            <div class="overlay">  
-            </div>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Search properties for sale in Pakistan</h5>
+            <img src="./assets/img/banner-1.jpg" class="d-block w-100" alt="...">
+            <!-- <div class="overlay">  
+            </div> -->
+            <div class="carousel-caption d-none d-md-block w-700">
+              <h4 class="ff-1">Search properties for sale in Pakistan</h4>
               <ul class="catogries d-flex m-0 p-0 justify-content-center">
                 <li><button type="button" class="btn btn-primary border-1 text-dark bg-light fw-bold rounded-0" >BUY</button></li>
-                <li><button type="button" class="btn btn-primary border-1 bg-transparent rounded-0 ">RENT</button></li>
-                <li><button type="button" class="btn btn-primary border-1 bg-transparent rounded-0">PROJECTS</button></li>
+                <li><button type="button" class="btn btn-primary border-1 rounded-0 bgc-1 fw-bold">RENT</button></li>
+                <li><button type="button" class="btn btn-primary border-1 rounded-0 bgc-1 fw-bold">PROJECTS</button></li>
               </ul>
-              <div class="search-box ">
-              <ul class="d-flex justify-content-center">
-                <li>
+              <!-- <div class="search-box-wrapper bg-dark"> -->
+                
+              <ul class="location-bar d-flex m-0 p-0 align-items-center justify-content-center bg-grey">
+                <li class="bg-light w-130 me-1 mb-2">
                   <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown button
+                    <p class="p-0 m-0 text-start fs-7 ps-2 fc-3 pt-1 fw-bold"> CITY</p>
+                  <button class="btn btn-secondary dropdown-toggle bg-light text-dark h-30 border-0 p-0 " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Islamabad
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item border-1" href="#">Rawalpindi</a></li>
+                    <li><a class="dropdown-item" href="#">Lahore</a></li>
+                    <li><a class="dropdown-item" href="#">Abottabad</a></li>
                   </ul>
                 </div>
-              </li>
-              <li><input type="text" name="" id=""></li>
-              <li><button type="button" class="btn btn-primary">Primary</button></li>
+              </li >
+              <li class="w-60 bg-light ms-1 me-1 mb-2"> <p class="p-0 m-0 text-start fs-7 ps-2 fc-3 pt-1 fw-bold"> LOCATION</p><input class="w-100 h-30 border-0" type="text" name="" id=""></li>
+              <li class="ms-1 mb-2"> <button type="button" class="btn btn-primary bg-green rounded-0 border-0 h-55 px-5">FIND</button></li>
               
+              </ul >
+              <ul class="m-0 d-flex p-0 fs-8 mb-2 bg-grey">
+                <li class="mt-0 border-end pe-3 me-0"><a class="text-decoration-none text-white"href=""><i class="bi bi-chevron-down m-1"></i>More Options</a></li>
+                <li class="mt-0 border-end pe-3 me-0"><a class="text-decoration-none"href="">Change Currency</a></li>
+                <li class="mt-0 border-end pe-3 me-0"><a class="text-decoration-none"href="">Change Area Unit</a></li>
+                <li class="mt-0"><a class="text-decoration-none"href="">Reset Search</a></li>
               </ul>
-              </div> <!-- /.search-box -->
+            
+              <!-- </div> /.search-box -->
             </div>
           </div>
           </div>
