@@ -8,7 +8,7 @@
     width: 6rem;
 }
 .w-8{
-    width: 8rem;
+    width: 9rem;
 }
 .h-175{
     height: 1.75rem;
@@ -16,10 +16,25 @@
 .h-15{
     height: 1.5rem;
 }
+.ps-0{
+    padding-left: 0;
+}
+.fs-7{
+    font-size: 10px;
+}
+.fc-1{
+    color: #848484!important;
+}
+.fc-2{
+color: #33a137!important;
+font-weight: 700!important;
+}
+
 .collapse{
     font-family: lato;
     font-size: 13px;
     color: white;
+    font-weight: 700;
 }
 .bg-green{
     background-color: #33a137;
@@ -51,6 +66,7 @@ border-radius: 6px;
 font-size: 13px;
 padding: 0 12px 0 6px;
 border: 0;
+height: 25px;
 }
 .top-right-ul li  button span{
 padding: 0 3px;
@@ -61,6 +77,12 @@ width: 12px;
 .top-right-ul li a img{
 width: 30px;
 }
+.top-primary-nav-font-style li a{
+    font-family: lato;
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: normal;
+}
 .banner{
     position: relative;
 }
@@ -68,6 +90,21 @@ width: 30px;
     position: absolute;
     inset: 0;
     background-color: rgba(0,0,0,0.6);
+}
+.carousel-caption ul li{
+list-style-type: none;
+margin: 12px;
+}
+
+.carousel-caption .catogries li button{
+width: 120px;
+text-decoration: none;
+color: white;
+border: 1px solid white;
+font-family: lato;
+}
+.carousel-caption .catogries li button:hover{
+    border:1px solid white!important;
 }
 
 
