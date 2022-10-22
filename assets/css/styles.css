@@ -138,7 +138,7 @@ width: 30px;
 }
 .carousel-caption ul li{
 list-style-type: none;
-margin:12px;
+margin: 12px;
 }
 
 .carousel-caption .catogries li button{
@@ -164,28 +164,28 @@ width: 600px;
 .location-bar li button:hover {
     background-color: #238727;
 }
-.explore .container-xl ul{
+.explore .container ul{
     margin: 0;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
 }   
-.explore .container-xl ul li{
+.explore .container ul li{
   list-style-type: none;
   margin: 12px 20px 35px 12px;
 }
-.explore .container-xl ul li a{
+.explore .container ul li a{
   text-decoration: none;
   display: flex;
   align-items: center;
 }    
-.explore .container-xl ul li a:hover img{
+.explore .container ul li a:hover img{
    border: 2.5px solid #f9d183;
 } 
-.explore .container-xl ul li a:hover h2{
+.explore .container ul li a:hover h2{
     color:  #ffcd6a;
 }
-.explore .container-xl ul li a img{
+.explore .container ul li a img{
   width: 95px;
   height: 90px;
   padding: 0 24px;
@@ -193,11 +193,11 @@ width: 600px;
   border-radius: 8px;
   border: 2.5px solid transparent;
 }
-.explore .container-xl ul li a span{
+.explore .container ul li a span{
     margin-left: 24px;
     
 }
-.explore .container-xl ul li a span h2 {
+.explore .container ul li a span h2 {
  margin: 0;
  padding-bottom: 4px;
  font-family: Lato, Helvetica, sans-serif;
@@ -205,74 +205,74 @@ width: 600px;
 color: #1f1f1f;
 font-weight: 700;
 }
-.explore .container-xl ul li a span p{
+.explore .container ul li a span p{
   margin: 0;
   padding-top: 4px;
   font-family:  Lato, Helvetica, sans-serif;
   font-size: 14px;
   color: #a3a3a3;
   font-weight: 400;
-}.explore .container-xl .home-loan a img{
+}.explore .container ul .home-loan a img{
     background-color: #f4f9f7;
 }
-.explore .container-xl .home-loan:hover img{
+.explore .container ul .home-loan:hover img{
     border: 2.5px solid #8cffd1;
-} 
-.explore .container-xl .home-loan:hover h2{
+}
+.explore .container ul .home-loan:hover h2{
     color:  #81ffcc;
 }
-.explore .container-xl ul .area-guide a img{
+.explore .container ul .area-guide a img{
     background-color: #fef7f7
 }
-.explore .container-xl ul .area-guide:hover img{
+.explore .container ul .area-guide:hover img{
     border: 2.5px solid #ffa6a6;
 }
-.explore .container-xl ul .area-guide:hover h2{
+.explore .container ul .area-guide:hover h2{
     color:  #ffa6a6;
 }
-.explore .container-xl ul .plot-finder a img{
+.explore .container ul .plot-finder a img{
     background-color: #f6faf9;
 }
-.explore .container-xl ul .plot-finder:hover img{
+.explore .container ul .plot-finder:hover img{
     border: 2.5px solid #73ffdc;
 }
-.explore .container-xl ul .plot-finder:hover h2{
+.explore .container ul .plot-finder:hover h2{
     color:  #80ffdf;
 }
-.explore .container-xl ul .property-index a img{
+.explore .container ul .property-index a img{
     background-color: #f5f7ff;
 }
-.explore .container-xl ul .property-index:hover img{
+.explore .container ul .property-index:hover img{
     border: 2.5px solid #9aaeff;
 }
-.explore .container-xl ul .property-index:hover h2{
+.explore .container ul .property-index:hover h2{
     color:  #9aaeff;
 }
-.explore .container-xl ul .area-unit a img{
+.explore .container ul .area-unit a img{
     background-color: #ecf8f7;
 }
-.explore .container-xl ul .area-unit:hover img{
+.explore .container ul .area-unit:hover img{
     border: 2.5px solid #1cfbe9;
 }
-.explore .container-xl ul .area-unit:hover h2{
+.explore .container ul .area-unit:hover h2{
     color:  #1cfbe9;
 }
-.explore .container-xl ul .land-record a img{
+.explore .container ul .land-record a img{
     background-color: #f1f9fe;
 }
-.explore .container-xl ul .land-record:hover img{
+.explore .container ul .land-record:hover img{
     border: 2.5px solid #61c0fb;
 }
-.explore .container-xl ul .land-record:hover h2{
+.explore .container ul .land-record:hover h2{
     color:  #61c0fb;
 }
-.explore .container-xl ul .property-trends a img{
+.explore .container ul .property-trends a img{
     background-color: #f9f5ff;
 }
-.explore .container-xl ul .property-trends:hover img{
+.explore .container ul .property-trends:hover img{
     border: 2.5px solid #ba8bff;
 }
-.explore .container-xl ul .property-trends:hover h2{
+.explore .container ul .property-trends:hover h2{
     color:  #ba8bff;
 }
 
