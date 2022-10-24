@@ -173,6 +173,7 @@ width: 600px;
 .explore .container ul li{
   list-style-type: none;
   margin: 12px 20px 35px 12px;
+  width: 22%;
 }
 .explore .container ul li a{
   text-decoration: none;
@@ -274,6 +275,43 @@ font-weight: 700;
 }
 .explore .container ul .property-trends:hover h2{
     color:  #ba8bff;
+}
+.titanium-agencies-wrapper .container ul{
+    flex-wrap: wrap;
+}
+.titanium-agencies-wrapper .container ul li{
+list-style-type: none;
+display: flex;
+margin: 0 30px 35px 12px;
+width: 21%;
+}
+.titanium-agencies-wrapper .container ul li:hover img{
+border: 1px solid blue;
+}
+.titanium-agencies-wrapper .container ul li a{
+text-decoration: none;
+display: flex;
+color: black;
+align-items: center;
+}
+.titanium-agencies-wrapper .container ul li a img{
+margin-right: 8px ;
+border: 1px solid transparent;
+}
+.titanium-agencies-wrapper .container ul li a span{
+
+}
+.titanium-agencies-wrapper .container ul li a span h6{
+margin: 8px
+}
+.titanium-agencies-wrapper .container ul li a span p{
+margin: 0 8px 8px 8px;
+display: flex;
+align-items: center;
+}
+.titanium-agencies-wrapper .container ul li a span p i{
+color: rgb(0, 205, 0);
+padding-right: 4px;
 }
 
 
