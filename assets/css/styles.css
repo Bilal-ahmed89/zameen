@@ -34,6 +34,10 @@
 .fs-8{
     font-size: 12px;
 }
+.fs-9{
+    font-size: 16px;
+}
+
 .fc-1{
     color: #848484!important;
     
@@ -57,6 +61,9 @@ font-weight: 700!important;
 }
 .bgc-1{
     background-color: rgba(86,90,92,.5);
+}
+.bgc-2{
+    background: #e83a3a;
 }
 .text-decoration-none{
     text-decoration: none;
@@ -312,6 +319,9 @@ align-items: center;
 .titanium-agencies-wrapper .container ul li a span p i{
 color: rgb(0, 205, 0);
 padding-right: 4px;
+}
+.featured-agencies-wrapper .container h4{
+
 }
 
 
