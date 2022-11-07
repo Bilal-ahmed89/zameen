@@ -19,6 +19,9 @@
 .w-700{
     width: 700px;
 }
+.w-40{
+    width: 45%;
+}
 .h-175{
     height: 1.75rem;
 }
@@ -79,6 +82,9 @@ font-weight: 700!important;
 }
 .bg-grey{
     background-color: rgba(34,34,34,.85);
+}
+.border-green{
+    border: 1px solid green;
 }
 .nav-item a small{ 
 background-color: red;
@@ -320,8 +326,23 @@ align-items: center;
 color: rgb(0, 205, 0);
 padding-right: 4px;
 }
-.featured-agencies-wrapper .container h4{
-
+.fixed-bell-icon{
+    bottom: 10px;
+    right: 10px;
 }
-
+.fixed-bell-icon i{
+    padding: 12px 16px;
+}
+.notification-wrapper{
+    height: 100px;
+   
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.notification-wrapper .row button i{
+    right: 10px;
+    bottom: 60px;
+}
 
